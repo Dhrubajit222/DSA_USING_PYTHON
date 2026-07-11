@@ -10,6 +10,6 @@ class Solution(object):
 
 
 s = Solution()
-nums = [0, 2, 1, 5, 3, 4]
+nums = list(map(int, input().split()))
 print(s.buildArray(nums))
 

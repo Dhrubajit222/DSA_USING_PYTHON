@@ -57,5 +57,5 @@ class Solution(object):
             
 
 s = Solution()
-nums = [1,2,3,4]
+nums = list(map(int, input().split()))
 print(s.productExceptSelf(nums))
