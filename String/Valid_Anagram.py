@@ -57,6 +57,6 @@ class Solution(object):
         
 
 sol = Solution()
-s = "ab"
-t = "aa"
+s = input()
+t = input()
 print(sol.isAnagram(s,t))
