@@ -58,6 +58,6 @@ class Solution(object):
 
 
 sol = Solution()
-nums = [1,1,1,2,2,3]
-k = 2
+nums = list(map(int,input().split()))
+k = int(input())
 print(sol.topKFrequent(nums, k))
