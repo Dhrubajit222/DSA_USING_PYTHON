@@ -62,5 +62,5 @@ class Solution(object):
             
 
 sol = Solution()
-s = " "
+s = input()
 print(sol.isPalindrome(s))
