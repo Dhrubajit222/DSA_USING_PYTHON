@@ -27,6 +27,7 @@ Constraints:
 0 <= strs[i].length <= 200
 strs[i] consists of only lowercase English letters if it is non-empty'''
 class Solution(object):
+
     def longestCommonPrefix(self, strs):
         if not strs:
             return ""
@@ -36,6 +37,7 @@ class Solution(object):
             for s in strs[1:]:
                 if i == len(s) or s[i] != char:
                     return strs[0][:i]
+                
         return strs[0]
     
 sol = Solution()
